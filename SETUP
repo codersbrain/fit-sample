@@ -1,0 +1,19 @@
+Global setup:
+
+ Set up git
+  git config --global user.name "Coder's Brain"
+  git config --global user.email codersbrain@gmail.com
+Add your public key
+      
+
+Next steps:
+
+  mkdir fit-sample
+  cd fit-sample
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:codersbrain/fit-sample.git OR https://codersbrain@github.com/codersbrain/fit-sample.git
+  git push -u origin master
+      
